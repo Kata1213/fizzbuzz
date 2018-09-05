@@ -1,4 +1,4 @@
-const printInventory = require('../main/main');
+const fizzBuzz = require('../main/main');
 
 describe('FizzBuzz',function () {
     var inputs;
@@ -21,14 +21,13 @@ describe('FizzBuzz',function () {
         'Buzz'+
         '11'+
         'Fizz'+
-        'Fizz'+
+        '13'+
         'Whizz'+
         'FizzBuzz'+
         '16'+
         '17'+
         'Fizz'+
-        '19'+
-        'Buzz';
+        '19';
         expect(console.log).toHaveBeenCalledWith(expectText);
     });
 });
